@@ -64,11 +64,11 @@ function createList(desc,expe,chat){
     newBtnDiv.classList.add("btn-group","gap-1")
 
     let newBtn1=document.createElement('button')
-    newBtn1.classList.add("btn", "btn-primary","edit_btn")
+    newBtn1.classList.add("btn", "btn-sm", "btn-secondary","edit_btn")
     newBtn1.textContent="EDIT"
 
     let newBtn2=document.createElement('button')
-    newBtn2.classList.add("btn", "btn-primary","del_btn")
+    newBtn2.classList.add("btn","btn-sm" ,"btn-danger","del_btn")
     newBtn2.textContent="X"
 
     newBtnDiv.appendChild(newBtn1)

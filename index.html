@@ -11,13 +11,13 @@
 </head>
 <body>
     
-    <div class="main_container container mt-4">
+    <div class="main_container container mt-4" style="user-select: none;">
 
-        <form action="#">
-            <div class="container">
-                <input  id="id_description" placeholder="Description" type="text">
-                <input  id="id_expence" placeholder="Expence" type="number">
-                <select id="id_chatagorie">
+            <form action="#">
+                <div class="container">
+                    <input  id="id_description" placeholder="Description" type="text">
+                    <input  id="id_expence" placeholder="Expence" type="number">
+                    <select id="id_chatagorie">
                     <option value="Select">Select</option>
                     <option value="Movie">Movie</option>
                     <option value="Electronics">Electronics</option>
@@ -30,6 +30,7 @@
                 <button id="id_add" class="btn btn-primary">Add Expence</button>
             </div>
         </form>
+
 
 
         <div class="container list_container ">
@@ -48,12 +49,13 @@
                 <div><span>400</span></div>
                 <div><span>Grocerie</span></div>
 
-                    <div class="btn-group gap-1">
-                        <button class="btn btn-primary edit_btn" >EDIT</button>
-                        <button class="btn btn-primary del_btn" >X</button>
+                    <div class="btn-group btn-group-sm gap-1">
+                        <button class="btn btn-sm btn-primary edit_btn" >EDIT</button>
+                        <button class="btn btn-sm btn-danger del_btn" >X</button>
                     </div>
 
             </div> -->
+
 
         </div>
 
