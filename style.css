@@ -1,0 +1,11 @@
+.list_container_parent{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    background-color: antiquewhite;
+}
+.list_container_child{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 1px solid black;
+}
