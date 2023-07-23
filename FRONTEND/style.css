@@ -18,6 +18,7 @@
 }
 .list_container_parent div span{
     font-weight: bold;
+    
 }
 .list_container_child{
     display: grid;
